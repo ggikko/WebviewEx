@@ -30,7 +30,7 @@ public class WebViewActivity extends AppCompatActivity {
 
         /** 캐시 설정, javascript 설정 등등 */
 //        mWebview.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-//        mWebview.getSettings().setJavaScriptEnabled(true);
+        mWebview.getSettings().setJavaScriptEnabled(true);
 
 
         mWebview.loadUrl(baseURL);
